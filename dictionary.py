@@ -1,6 +1,6 @@
 from tabulate import tabulate
 
-students_dict = {
+students_dict ={
     'std01': {'studentName': 'Ashish Kumar', 'Standard': '10th', 'Age': 15, 'Hindi': 67, 'English': 89, 'Maths': 87, 'Science': 89, 'Computer': 90, 'Total': 422},
     'std02': {'studentName': 'Abhishek Kumar', 'Standard': '10th', 'Age': 14, 'Hindi': 85, 'English': 45, 'Maths': 48, 'Science': 90, 'Computer': 45, 'Total': 313},
     'std03': {'studentName': 'Aman', 'Standard': '10th', 'Age': 15, 'Hindi': 23, 'English': 56, 'Maths': 78, 'Science': 78, 'Computer': 67, 'Total': 302},
