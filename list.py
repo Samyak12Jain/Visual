@@ -1,6 +1,6 @@
 from tabulate import tabulate
 
-# stuData = [["stdId", 'stdName', "standard", 'age', 'hindi','english','math','science','computer','total'],
+# stuData =[["stdId", 'stdName', "standard", 'age', 'hindi','english','math','science','computer','total'],
 #            ['std101','Ashish Kumar', '10th', 15, 67,89,87,89,90,422],
 #            ['std102','Abhishek Kumar', '10th', 14,85,45,48,90,45,313],
 #            ['std103','Aman', '10th', 15,23,56,78,78,67,302],
