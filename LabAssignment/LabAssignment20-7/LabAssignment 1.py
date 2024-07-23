@@ -10,7 +10,7 @@ def read_and_display_file(filename):
     except Exception as e:
         print(f"An error occurred: {e}")
         
-read_and_display_file('C:\\Users\\SAMYAK\\Desktop\\vs code\\LabAssignment\\LabAssignment20-7\\ABC.txt')
+read_and_display_file('ABC.txt')
 
 
 #Ques:2 Write a function in Python to count and display the total number of words in a text file 'ABC.txt'.
@@ -27,7 +27,7 @@ def count_words_in_file(filename):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-count_words_in_file('C:\\Users\\SAMYAK\\Desktop\\vs code\\LabAssignment\\LabAssignment20-7\\ABC.txt')
+count_words_in_file('ABC.txt')
 
 
 #Ques:3 Write a function in python to count uppercase character in a text file 'ABC.txt'.
@@ -43,7 +43,7 @@ def count_uppercase_characters(filename):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-count_uppercase_characters('C:\\Users\\SAMYAK\\Desktop\\vs code\\LabAssignment\\LabAssignment20-7\\ABC.txt')
+count_uppercase_characters('ABC.txt')
 
 
 #Ques:4 Write a function display_words() in python to read lines from a text file 'story.txt', and dispaly those words, which are less than 4 characters.
@@ -61,4 +61,4 @@ def display_words(filename):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-display_words('C:\\Users\\SAMYAK\\Desktop\\vs code\\LabAssignment\\LabAssignment20-7\\story.txt')
+display_words('story.txt')
