@@ -6,7 +6,7 @@ def count_occurrences(filename, word):
         for line in file:
             count += line.upper().count(word)
     return count
-filename = "C:\\Users\\SAMYAK\\Desktop\\vs code\\LabAssignment\\LabAssignment20-7\\india.txt"
+filename = "india.txt"
 word = "INDIA"
 occurrences = count_occurrences(filename, word)
 print(f"The word '{word}' occurs {occurrences} times in the file '{filename}'.")
@@ -27,7 +27,7 @@ def count_and_display_lines_starting_with_T(filename):
     print("Lines starting with 'T':")
     for line in lines_starting_with_T:
         print(line)
-filename = "C:\\Users\\SAMYAK\\Desktop\\vs code\\LabAssignment\\LabAssignment20-7\\story.txt"
+filename = "story.txt"
 count_and_display_lines_starting_with_T(filename)
 
 
@@ -47,7 +47,7 @@ def count_vowels_and_consonants(filename):
                     consonant_count += 1
     print(f"Number of vowels: {vowel_count}")
     print(f"Number of consonants: {consonant_count}")
-filename = "C:\\Users\\SAMYAK\\Desktop\\vs code\\LabAssignment\\LabAssignment20-7\\Myfile.txt"
+filename = "Myfile.txt"
 count_vowels_and_consonants(filename)
 
 #Ques:4 Write a program to count and display number of words start with 'i' in file Word.txt
@@ -61,7 +61,7 @@ def count_words_starting_with_i(file_path):
         print(f"Number of words starting with 'i': {count}")
     except FileNotFoundError:
         print(f"The file {file_path} does not exist.")
-file_path = 'C:\\Users\\SAMYAK\Desktop\\vs code\\LabAssignment\\LabAssignment20-7\\Word.txt'
+file_path = 'Word.txt'
 count_words_starting_with_i(file_path)
 
 
@@ -74,7 +74,7 @@ def count_words(filename):
         words = content.split()
         word_count = len(words)
     print(f"Number of words in '{filename}': {word_count}")
-filename = "C:\\Users\\SAMYAK\\Desktop\\vs code\\LabAssignment\\LabAssignment20-7\\Notes.txt"
+filename = "Notes.txt"
 count_words(filename)
 
 
@@ -92,7 +92,7 @@ def write_student_data(filename):
             cont = input("Do you want to add another student? (y/n): ")
             if cont.lower() != 'y':
                 break
-filename = "C:\\Users\\SAMYAK\\Desktop\\vs code\\LabAssignment\\LabAssignment20-7\\Stu.dat"
+filename = "Stu.dat"
 write_student_data(filename)
 
 
@@ -115,5 +115,5 @@ def read_student_data(filename):
     print("Students with marks greater than 81:")
     for rollno, name, marks in students_with_high_marks:
         print(f"Roll No: {rollno}, Name: {name}, Marks: {marks}")
-filename = "C:\\Users\\SAMYAK\\Desktop\\vs code\\LabAssignment\\LabAssignment20-7\\Stu.dat"
+filename = "Stu.dat"
 read_student_data(filename)
